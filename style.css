@@ -147,3 +147,15 @@ font-size:30px;
     transform:scale(1.1);
     background:#20ba5a;
 }
+.card-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.card-link:hover .card,
+.card-link:hover .product{
+    transform:translateY(-5px);
+    transition:.3s;
+    cursor:pointer;
+}
