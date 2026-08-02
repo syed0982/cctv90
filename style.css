@@ -1,136 +1,240 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+<section class="why">
+
+<h2>Why Choose GAD CCTV Camera?</h2>
+
+<div class="service-box">
+
+<div class="card">
+<h3>✔ Professional Installation</h3>
+<p>Expert CCTV installation by experienced technicians.</p>
+</div>
+
+<div class="card">
+<h3>✔ HD & IP Cameras</h3>
+<p>Latest HD, Full HD and IP Camera solutions.</p>
+</div>
+
+<div class="card">
+<h3>✔ Affordable Pricing</h3>
+<p>Best quality products at competitive prices.</p>
+</div>
+
+<div class="card">
+<h3>✔ One-Year Warranty</h3>
+<p>Warranty support on selected CCTV products.</p>
+</div>
+
+<div class="card">
+<h3>✔ Mobile Viewing</h3>
+<p>Watch your cameras anytime from your mobile phone.</p>
+</div>
+
+<div class="card">
+<h3>✔ Free Site Visit</h3>
+<p>Free inspection and quotation before installation.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact-home">
+
+<h2>Need CCTV Installation?</h2>
+
+<p>
+Call us today for a FREE Site Visit and Quotation.
+</p>
+
+<h3>📞 +91 87922 12284</h3>
+
+<h3>📧 gadcctvcam@gmail.com</h3>
+
+<p>
+22 & 23, 10A Cross,<br>
+Kanka Nagar, RT Nagar,<br>
+Bangalore – 560032
+</p>
+
+<a href="contact.html" class="btn">
+Contact Now
+</a>
+
+</section>
+
+<footer>
+
+<h3>GAD CCTV Camera</h3>
+
+<p>
+Professional CCTV Installation & Security Solutions
+</p>
+
+<p>
+© 2026 GAD CCTV Camera. All Rights Reserved.
+</p>
+
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/918792212284"
+class="whatsapp-float"
+target="_blank">
+💬
+</a>
+
+<!-- Floating Call Button -->
+<a href="tel:+918792212284"
+class="call-float">
+📞
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+/* ===========================
+   SERVICES
+=========================== */
+
+.services{
+    padding:70px 8%;
+    background:#ffffff;
 }
 
-body{
-background:#f5f5f5;
-color:#333;
-line-height:1.6;
+.services h2{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:40px;
+    color:#0d47a1;
 }
 
-header{
-background:#111;
-color:#fff;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 40px;
+.service-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
 }
 
-.logo h2{
-color:#00c3ff;
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
 }
 
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:bold;
-}
-
-nav a:hover{
-color:#00c3ff;
-}
-
-.hero{
-background:#0d6efd;
-color:white;
-text-align:center;
-padding:100px 20px;
-}
-
-.hero h1{
-font-size:45px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:18px;
-max-width:700px;
-margin:auto;
-}
-
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:12px 30px;
-background:#fff;
-color:#0d6efd;
-text-decoration:none;
-border-radius:5px;
-font-weight:bold;
-}
-
-.services,
-.products,
-.cta{
-padding:70px 20px;
-text-align:center;
-}
-
-.service-box,
-.product-box{
-display:flex;
-justify-content:center;
-gap:25px;
-flex-wrap:wrap;
-margin-top:35px;
-}
-
-.card,
-.product{
-background:#fff;
-padding:25px;
-width:300px;
-border-radius:8px;
-box-shadow:0 0 10px rgba(0,0,0,.1);
+.card:hover{
+    transform:translateY(-8px);
 }
 
 .card i{
-font-size:45px;
-color:#0d6efd;
-margin-bottom:15px;
+    color:#0d47a1;
+    margin-bottom:15px;
 }
+
+.card h3{
+    margin-bottom:15px;
+    color:#0d47a1;
+}
+
+/* ===========================
+   PRODUCTS
+=========================== */
+
+.products{
+    padding:70px 8%;
+    background:#f5f5f5;
+}
+
+.products h2{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:40px;
+    color:#0d47a1;
+}
+
+.product-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.product{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center
+    /* ===========================
+   WHY CHOOSE US
+=========================== */
+
+.why{
+    padding:70px 8%;
+    background:#ffffff;
+}
+
+.why h2{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:40px;
+    color:#0d47a1;
+}
+
+/* ===========================
+   CONTACT HOME
+=========================== */
+
+.contact-home{
+    background:#0d47a1;
+    color:#fff;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.contact-home h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.contact-home p{
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.contact-home h3{
+    margin:10px 0;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
 
 footer{
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
 }
 
-@media(max-width:768px){
-
-header{
-flex-direction:column;
+footer h3{
+    margin-bottom:10px;
 }
 
-nav{
-margin-top:15px;
+footer p{
+    margin:8px 0;
 }
 
-nav a{
-display:block;
-margin:10px 0;
-}
-
-.hero h1{
-font-size:30px;
-}
-
-}
-/* WhatsApp Floating Button */
+/* ===========================
+   FLOATING WHATSAPP BUTTON
+=========================== */
 
 .whatsapp-float{
-    position: fixed;
+    position:fixed;
     width:60px;
     height:60px;
-    bottom:25px;
-    right:25px;
+    bottom:20px;
+    right:20px;
     background:#25D366;
     color:white;
     border-radius:50%;
@@ -139,34 +243,12 @@ font-size:30px;
     line-height:60px;
     text-decoration:none;
     box-shadow:0 4px 10px rgba(0,0,0,.3);
-    z-index:9999;
-    transition:.3s;
+    z-index:999;
 }
 
 .whatsapp-float:hover{
-    transform:scale(1.1);
-    background:#20ba5a;
-}
-.card-link{
-    text-decoration:none;
-    color:inherit;
-    display:block;
+    background:#1ebe5d;
 }
 
-.card-link:hover .card,
-.card-link:hover .product{
-    transform:translateY(-5px);
-    transition:.3s;
-    cursor:pointer;
-}
-.card-link{
-    text-decoration:none;
-    color:inherit;
-    display:block;
-}
-
-.card-link:hover .card{
-    transform:translateY(-5px);
-    transition:0.3s;
-    cursor:pointer;
-}
+/* ===========================
+   FLOAT
