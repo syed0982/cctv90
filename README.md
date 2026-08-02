@@ -1,0 +1,1 @@
+Starter website scaffold. Replace placeholder pages with final content.
