@@ -1,1 +1,1 @@
-console.log('CCTV SURVEILLANCE');
+<script src="script.js"></script>
